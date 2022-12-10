@@ -53,9 +53,9 @@ public class Backup {
                 System.out.println("Residences you own: ");                     //--  residences he has registered to the 
                 for (int j = 0; j < residenceArray.size(); j++) {               //--- system.
                     if (residenceArray.get(j).getVatNumber() ==                 //---
-                            ownerArray.get(position).getVatNumber()) {          //--- TODO: IT MUST OUTPUT THE RESERVATION DAYS
-                        System.out.println(residenceArray.get(j).toString       //--- OF A SPECIFIC RESIDENCE AFTER THE OWNER
-                                                            (residenceArray));  //--- GIVES ITS VERIFICATION ID.
+                            ownerArray.get(position).getVatNumber()) {          //--- 
+                        System.out.println(residenceArray.get(j).toString       //--- 
+                                                            (residenceArray));  //--- 
                     }                                                           //--
                 }                                                               //--
             }                                                                   //--
